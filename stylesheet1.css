@@ -1,0 +1,302 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navigationbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.logo
+{
+    padding: 0 5rem;
+}
+
+.logo .logo_heading
+{
+    color: black;
+}
+
+.menu
+{
+    padding: 0 5rem;
+}
+
+
+.menu .menu_list
+{
+    display: flex;
+    list-style: none;
+}
+
+.menu_list .items
+{
+    padding: 0.5rem 1rem ;
+}
+
+@media screen and (min-width: 856px) and (max-width: 1024px)
+{
+    .menu_list .items
+    {
+        padding: 0.5rem 0.3rem;
+    }
+}
+
+.home
+{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 4.8rem 0;
+}
+
+.home .intro
+{
+    text-align: center;
+    margin: 0 5rem;
+}
+
+.home .intro_buttons
+{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about
+{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(45deg,#363D73, #2794B3);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about .about_text
+{
+    width: 450px;
+    color: white;
+    padding: 5rem 1rem 5rem 5rem;
+}
+
+.portfolio
+{
+    margin: 4.8rem 0;
+    padding: 0 5rem;
+}
+
+.port_card
+{
+    padding: 0 !important; 
+    background: none !important; 
+    border: 2px solid #000;
+}
+
+.skills
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4.8rem 0;
+    padding: 0 5rem;
+}
+
+.my_row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+
+}
+
+.my_row .my_col
+{
+    text-align: center;
+    width: 30%;
+}
+
+.my_card
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: linear-gradient(#74D7BB, #53C8B6, #35A99C); 
+    padding: 1rem;
+}
+
+.icon
+{
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50%; 
+    background-color: #363D73; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.icon svg
+{
+    font-size: 30px;
+    color: white;
+}
+
+.contact
+{
+    padding: 0 5rem;
+}
+
+.contact_content
+{
+    display: flex;
+    margin: 3rem 0;
+    justify-content: space-between;
+}
+
+.contact_form_container
+{
+    width: 50%;
+}
+
+.contact_form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form .form_controls
+{
+    width: 80%;
+    padding: 10px 0;
+    margin: 1.67rem 0;
+}
+
+.contact_form .form_button
+{
+    width: 83%;
+}
+
+.contact_details
+{
+    width: 50%;
+}
+
+.greeting_heading
+{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.my_heading
+{
+    font-size: 2.5rem;
+}
+
+.sub_heading
+{
+    margin: 0;
+    font-size: 2.5rem;
+    color: darkgray;
+    font-weight: lighter;
+}
+
+.links
+{
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover
+{
+    border-bottom: 2px solid white;
+}
+
+
+.button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.button_common
+{
+    background-color: #35A99C;
+    color: white;
+    border: 2px solid #35A99C;
+    transition: all 0.25s;
+}
+
+.button_common:hover
+{
+    background-color: white;
+    color: #35A99C;
+    border: 2px solid #35A99C;
+    outline: none;
+}
+
+.button_ghost
+{
+    background-color:#35A99C;
+    color: white;
+    border: 2px solid #35A99C;
+    outline: none;
+}
+
+.button_ghost:hover
+{
+    background-color: white;
+    color: #35A99C;
+    transition: all 0.25s;
+    border: 2px solid #35A99C;
+}
+
+.heading_span
+{
+    font-weight: bolder;
+}
+
+.text_center
+{
+    text-align: center;
+}
+
+.small_para
+{
+    font-size: 14px;
+}
+.white_text
+{
+    color: white;
+}
+
+.blue_text
+{
+    color: #363D73;
+}
